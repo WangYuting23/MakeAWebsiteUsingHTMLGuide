@@ -1,0 +1,2 @@
+You may start now! Make sure to save this file as index.html after completion, and after reading this you may delete this text!
+<html>
