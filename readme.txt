@@ -1,0 +1,83 @@
+Here is your guide. We will show you the basics of html.
+Basic HTML Structure
+<html>
+ <head>
+  <title>website title</title>
+ </head>
+ <body>
+  content of website ...
+ </body>
+</html>
+Common Tags for Blogs	Help Help | Top Top
+<h?> heading </h?>	Heading (h1 for largest to h6 for smallest)
+<p> paragraph </p>	Paragraph of Text
+<b> bold </b>	Make text between tags bold
+<i> italic </i>	Make text between tags italic
+<a href="url"> link name </a>	Create a link to another page or website
+<div> ... </div>	Divide up page content into sections, and applying styles
+<img src="filename.jpg">	Show an image
+<ul> <li> list </li> </ul>	Unordered, bullet-point list
+<br>	Line Break (force a new line)
+<span style="color:red"> red </span>	Use CSS style to change text colour
+
+ 
+Text Formatting
+<h?> ... </h?>	Heading (?= 1 for largest to 6 for smallest, eg h1)
+<b> ... </b>	Bold Text
+<i> ... </i>	Italic Text
+<u> ... </u>	Underline Text
+<strike> ... </strike>	Strikeout
+<sup> ... </sup>	Superscript - Smaller text placed below normal text
+<sub> ... </sub>	Subscript - Smaller text placed below normal text
+<small> ... </small>	Small - Fineprint size text
+<tt> ... </tt>	Typewriter Text
+<pre> ... </pre>	Pre-formatted Text
+<blockquote> ... </blockquote>	Text Block Quote
+<strong> ... </strong>	Strong - Shown as Bold in most browsers
+<em> ... </em>	Emphasis - Shown as Italics in most browsers
+<font> ... </font>	Font tag obsolete, use CSS. (*)
+Section Divisions	Help Help | Top Top
+<div> ... </div>	Division or Section of Page Content
+<span> ... </span>	Section of text within other content
+<p> ... </p>	Paragraph of Text
+<br>	Line Break
+<hr>	Basic Horizontal Line
+<hr> Tag Attributes:	 
+size="?"	Line Thickness in pixels
+width="?"	Line Width in pixels
+width="??%"	Line Width as a percentage
+color="#??????"	Line Colour (*)
+align="?"	Horizontal Alignment: left, center, right (*)
+noshade	No 3D cut-out
+<nobr> ... </nobr>	Line Break
+Images	Help Help | Top Top
+<img src="url" alt="text">	Basic Image
+<img> Tag Attributes:	 
+src="url"	URL or filename of image (required!)
+alt="text"	Alternate Text (required!)
+align="?"	Image alignment within surrounding text (*)
+width="??"	Image width (in pixels or %)
+height="??"	Image height (in pixels or %)
+border="??"	Border thickness (in pixels) (*)
+vspace="??"	Space above and below image (in pixels) (*)
+hspace="??"	Space on either side of image (in pixels) (*)
+Linking Tags	Help Help | Top Top
+<a href="url"> link text </a>	Basic Link
+<a> Tag Attributes:	 
+href="url"	Location (url) of page to link to.
+name="??"	Name of link (name of anchor, or name of bookmark)
+target="?"	Link target location: _self, _blank, _top, _parent.
+href="url#bookmark"	Link to a bookmark (defined with name attribute).
+href="mailto:email"	Link which initiates an email (dependant on user's email client).
+Lists	Help Help | Top Top
+<ol> ... </ol>	Ordered List
+<ul> ... </ul>	Un-ordered List
+<li> ... </li>	List Item (within ordered or unordered)
+<ol type="?">	Ordered list type: A, a, I, i, 1
+<ol start="??">	Ordered list starting value
+<ul type="?">	Unordered list bullet type: disc, circle, square
+<li value="??">	List Item Value (changes current and subsequent items)
+<li type="??">	List Item Type (changes only current item)
+<dl> ... </dl>	Definition List
+<dt> ... </dt>	Term or phrase being defined
+<dd> ... </dd>	Detailed Definition of term
